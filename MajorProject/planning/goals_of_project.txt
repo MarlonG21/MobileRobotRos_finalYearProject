@@ -1,0 +1,49 @@
+														List of goals1:
+	-building a differential robot with ROS
+		a.design the robot and produce URDF file for data visualization in rviz
+		a.adding gyro for orientation and calibration
+		b.adding an external encoder to avoid position sliding in case the was an obstacle it couldn't detect
+		c.building android app to interact with the robot------define what the app will do--------------------------------------------------------------------------------->MAKING LAYOUT FOR THE PHONE APP/PC
+																						    SIMPLE TO UNDERSTAND USER INTERFACE:
+																						    IMPLEMENTING TELEOPERATION ON THE ROBOT
+	-building a detachable manipulator																	    IMPLEMENTING JOGGING FOR MANIPULATOR WITH WINDOW FOR OBJECT DETECTION
+		a.design the robot and produce URDF file for data visualization in rviz												    speech to text commands	   
+		b.building the manipulato r-with servo(max torque not decided yet) and 3d printer parts										    									    										    
+		c.making manipulator wireless
+		d.making master communicate to each other
+
+	-pick and place object
+		a.detecting object
+		a1. detecting distance between camera and object detected--https://www.youtube.com/watch?v=1I4gHpctXbU
+		b.determine location of object with image processed 
+		c.move torwards the object using image processed from camera
+
+	-navigation with an unknown map
+		a.processing the data from the array produced for the occupancy grid
+		b.define each grid with a list of lists
+		c.
+		 
+
+Define end user:
+in industry-might be teleoperated
+for any customer-a development of an up might be required------------------------------------------------------------------------------------------------------------------------>The end user will be a customer & the functional use will be for educational purposes
+
+
+
+	DUE HOMEWORK(Formative submissions)	Assessment milestones(summative submissions)
+week		
+14	Project proposal with Gant Chart-24/01	initial report guidelines
+15	Initial report draft-31/01
+16
+17	Website online-14/02
+18
+19
+20	
+21	Progress prensatation with slides-14/03
+22
+23	Additional media first version-11/04
+24
+25	project submission Beginning of May-23/04
+
+
+prepare: initial report & structure for literature review
