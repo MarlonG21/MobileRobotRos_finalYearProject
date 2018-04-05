@@ -138,18 +138,18 @@ void setup() {
       Serial.println(F("Tap the card again"));
     }
     EEPROM.write(1, 143);                  // Write to EEPROM we defined Master Card.
-    Serial.println(F("Master Card Defined"));
+   // Serial.println(F("Master Card Defined"));
   }
-  Serial.println(F("-------------------"));
-  Serial.println(F("Master Card's UID"));
+  //Serial.println(F("-------------------"));
+  //Serial.println(F("Master Card's UID"));
   for ( uint8_t i = 0; i < 4; i++ ) {          // Read Master Card's UID from EEPROM
     masterCard[i] = EEPROM.read(2 + i);    // Write it to masterCard
-    Serial.print(masterCard[i], HEX);
+   // Serial.print(masterCard[i], HEX);
   }
-  Serial.println("");
-  Serial.println(F("-------------------"));
-  Serial.println(F("Everything is ready"));
-  Serial.println(F("Waiting PICCs to be scanned"));
+  //Serial.println("");
+  //Serial.println(F("-------------------"));
+ // Serial.println(F("Everything is ready"));
+ // Serial.println(F("Waiting PICCs to be scanned"));
   InProgramMode();    // Everything ready lets give user some feedback by cycling leds
 }
 
@@ -261,10 +261,10 @@ uint8_t getID() {
   // There are Mifare PICCs which have 4 byte or 7 byte UID care if you use 7 byte PICC
   // I think we should assume every PICC as they have 4 byte UID
   // Until we support 7 byte PICCs
-  Serial.println(F("Scanned PICC's UID:"));
+  //Serial.println(F("Scanned PICC's UID:"));
   for ( uint8_t i = 0; i < 4; i++) {  //
     readCard[i] = mfrc522.uid.uidByte[i];
-    Serial.print(readCard[i], HEX);
+   // Serial.print(readCard[i], HEX);
   }
   Serial.println("");
   mfrc522.PICC_HaltA(); // Stop reading

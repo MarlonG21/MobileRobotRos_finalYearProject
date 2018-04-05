@@ -28,10 +28,10 @@ void loop() {
     }
     
   } 
-  for (int positionCounter = 0; positionCounter < 1; positionCounter++) {
+  /*for (int positionCounter = 0; positionCounter < 1; positionCounter++) {
     // scroll one position left:
     lcd.scrollDisplayLeft();
     // wait a bit:
     delay(150);
-  }
+  }*/
 }
