@@ -181,7 +181,9 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Demo
 
-<div align="center"> [![](http://img.youtube.com/vi/qaZm7sTNlWE/0.jpg)](http://www.youtube.com/watch?v=qaZm7sTNlWE "Final Year Project") <div/>
+<div align="center"> [![](http://img.youtube.com/vi/qaZm7sTNlWE/0.jpg)](http://www.youtube.com/watch?v=qaZm7sTNlWE "Final Year Project") </div> 
+
+
 
 <!-- LICENSE -->
 ## License
